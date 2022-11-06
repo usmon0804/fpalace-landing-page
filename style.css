@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 100px;
+}
+.container .navbar .logo .vector5 {
+  position: absolute;
+  left: 115px;
+  top: 23px;
+  width: 10px;
+}
+.container .navbar .logo .vector6 {
+  position: absolute;
+  left: 127px;
+  top: 25px;
+  width: 9px;
+}
+.container .navbar .logo .svg6 {
+  width: 150px;
+  position: absolute;
+  left: 40%;
+}
+.container .navbar .menu {
+  display: flex;
+  gap: 50px;
+  padding: 150px;
+}
+.container .navbar .menu .rectangles {
+  display: flex;
+  gap: 50px;
+}
+.container .block {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.container .block .box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #fffefc;
+}
+.container .block .box h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #232323;
+}
+.container .block .box p {
+  width: 500px;
+  margin-left: 150px;
+  font-weight: bold;
+  color: #232323;
+}
+.container .block .box button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #ff9401;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .block .box button:hover {
+  background-color: white;
+  border: 1px solid #ff9401;
+  color: #ff9401;
+}
+.container .block-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fffaf3;
+  display: flex;
+}
+.container .block-2 .box-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  position: relative;
+  text-align: justify;
+}
+.container .block-2 .box-2 button {
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #ff9401;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .block-2 .box-2 button:hover {
+  background-color: transparent;
+  color: #ff9401;
+  border: 1px solid #ff9401;
+}
+.container .block-2 .box-2 .about {
+  color: #ff9401;
+  margin-top: -200px;
+  margin-left: -200px;
+}
+.container .block-2 .box-2 h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.container .block-2 .box-2 .text {
+  text-align: justify;
+  width: 400px;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.container .block-2 .box-2 .background {
+  width: 450px;
+  margin-left: 150px;
+}
+.container .block-2 .box-2 .meat {
+  position: absolute;
+  width: 400px;
+  left: 30%;
+}
+.container .block-2 .box-2 .sauce {
+  position: absolute;
+  left: -20px;
+  bottom: 15%;
+  width: 450px;
+}
+.container .block-3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fffefc;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .block-3 .cards {
+  display: flex;
+}
+.container .block-3 .cards .card {
+  width: 300px;
+  height: 400px;
+  margin-top: 200px;
+  text-align: center;
+  color: #232323;
+}
+.container .block-3 .cards .card img {
+  padding: 20px;
+}
+.container .block-3 .cards .card h2 {
+  padding: 50px;
+}
+.container .block-4 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(#fffaf2 60%, white);
+}
+.container .block-4 .reciept {
+  position: absolute;
+  bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff9401;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .block-4 .reciept:hover {
+  background-color: transparent;
+  color: #ff9401;
+  border: 1px solid #ff9401;
+}
+.container .block-4 .card-2 {
+  width: 350px;
+  height: 380px;
+  margin-top: 150px;
+  text-align: center;
+  border-radius: 6px;
+  position: relative;
+  background-color: white;
+}
+.container .block-4 .card-2 img {
+  margin-top: 10px;
+}
+.container .block-5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.container .block-5 .box {
+  width: 50%;
+  height: 100%;
+}
+.container .block-6 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.container .block-6 .box {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+.container .block-7 {
+  width: 100%;
+  height: 50vh;
+  background-color: #fffaf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .block-7 .box {
+  width: 35%;
+  height: 100%;
+  position: relative;
+}
+.container .block-7 .box .fruit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+}
+.container .block-7 .card {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .block-7 .card a {
+  color: grey;
+}
+.container .block-7 .card a h2 {
+  padding: 50px;
+  color: #232323;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: white;
+  }
+  .navbar .menu {
+    width: 50% !important;
+  }
+  .navbar .menu .rectangles {
+    gap: 5px !important;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .navbar .logo {
+    width: 50% !important;
+  }
+  .navbar .logo p {
+    position: absolute;
+    left: 50px;
+  }
+  .navbar .logo .food-1 {
+    position: absolute;
+    left: 20px;
+  }
+  .navbar .logo .svg6 {
+    width: 100px !important;
+  }
+  .block {
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .block .box {
+    width: 100% !important;
+    height: 50% !important;
+    text-align: center;
+    position: relative;
+  }
+  .block .box h1 {
+    font-size: 30px !important;
+  }
+  .block .box h1:first-child {
+    position: absolute !important;
+    top: 10px;
+  }
+  .block .box .mood {
+    position: absolute !important;
+    top: 70px;
+    left: 65px;
+  }
+  .block .box .mood img {
+    width: 2.5rem !important;
+  }
+  .block .box p {
+    width: 100% !important;
+    margin-right: 150px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 40%;
+  }
+  .block .box button {
+    position: absolute;
+    bottom: 35px;
+  }
+  .block .box .pasta {
+    width: 100% !important;
+    margin-left: 62%;
+  }
+  .block-2 {
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .block-2 .box-2 {
+    width: 100% !important;
+  }
+  .block-2 .box-2 img {
+    width: 100%;
+  }
+  .block-2 .box-2 h1 {
+    font-size: 30px !important;
+  }
+  .block-2 .box-2 p {
+    width: 100% !important;
+    font-size: 12px !important;
+    margin-top: 20px !important;
+    margin-left: 20px;
+  }
+  .block-3 {
+    width: 100% !important;
+    height: 100% !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .block-3 .avakado {
+    width: 150px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .block-3 .meal {
+    width: 150px !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .block-3 h3 {
+    margin-right: 100px !important;
+  }
+  .block-3 .cards {
+    width: 100% !important;
+    height: 100%;
+    flex-wrap: wrap !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .block-3 .cards .card {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .block-4 {
+    width: 100% !important;
+    height: 100% !important;
+    flex-wrap: wrap !important;
+    position: relative;
+  }
+  .block-4 .card-2 {
+    width: 100% !important;
+  }
+  .block-4 h1 {
+    font-size: 20px !important;
+    position: absolute !important;
+    left: 24% !important;
+    top: 5% !important;
+  }
+  .block-4 p {
+    font-size: 17px !important;
+    margin-top: -80px !important;
+    margin-right: 50px !important;
+  }
+  .block-5 {
+    width: 100% !important;
+    height: 100%;
+    flex-direction: column !important;
+  }
+  .block-5 .box {
+    width: 100% !important;
+    height: 50%;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+  .block-5 .box .phone {
+    width: 50% !important;
+    margin-top: 50px;
+  }
+  .block-5 .box .cola {
+    width: 100% !important;
+    position: absolute;
+    top: 80%;
+    left: -5%;
+  }
+  .block-6 {
+    width: 100% !important;
+    height: 100%;
+    flex-direction: column;
+  }
+  .block-6 .box {
+    width: 100% !important;
+  }
+  .block-6 .box h1 {
+    font-size: 30px !important;
+  }
+  .block-6 .box p {
+    font-size: 15px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
