@@ -465,4 +465,157 @@
   .block-6 .box p {
     font-size: 15px !important;
   }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .block {
+    width: 100% !important;
+    height: 100%;
+  }
+  .block .box {
+    width: 50% !important;
+    height: 100%;
+  }
+  .block .box .pasta {
+    margin-left: 175px;
+    width: 600px !important;
+    height: 100%;
+  }
+  .block-2 {
+    width: 100% !important;
+    height: 100%;
+  }
+  .block-2 .box-2 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  .block-2 .box-2 p {
+    font-size: 15px !important;
+    margin-left: 50px;
+  }
+  .block-2 .box-2 img {
+    width: 550px !important;
+    height: 100%;
+    margin-right: 80px;
+  }
+  .block-3 {
+    width: 100% !important;
+  }
+  .block-3 h1 {
+    font-size: 25px !important;
+    position: absolute;
+    left: 32% !important;
+  }
+  .block-3 .card {
+    width: 33.5% !important;
+  }
+  .block-3 .meal {
+    width: 200px !important;
+  }
+  .block-3 .avakado {
+    width: 200px !important;
+  }
+  .block-4 {
+    width: 100% !important;
+  }
+  .block-4 h1 {
+    font-size: 25px !important;
+    position: absolute;
+    left: 32% !important;
+  }
+  .block-4 .card-2 {
+    width: 30.5% !important;
+  }
+  .block-4 .card-2 h2 {
+    font-size: 18px !important;
+  }
+  .block-4 .card-2 img {
+    width: 90% !important;
+  }
+  .block-4 .card-2 button {
+    width: 150px !important;
+    font-size: 10px !important;
+  }
+  .block-4 .card-2 h3 {
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+  }
+  .block-4 .card-2 .star {
+    position: absolute;
+    bottom: 30px;
+  }
+  .block-5 {
+    width: 100% !important;
+  }
+  .block-5 .box {
+    width: 50% !important;
+  }
+  .block-5 .box .cola {
+    width: 430px !important;
+    position: absolute;
+    bottom: 100px;
+    left: -30px;
+  }
+  .block-5 .box .phone {
+    width: 200px !important;
+  }
+  .block-5 .box .social {
+    width: 280px;
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+  }
+  .block-5 .box h1 {
+    font-size: 35px !important;
+  }
+  .block-5 .box .text {
+    width: 100% !important;
+    font-size: 15px !important;
+    position: absolute;
+    bottom: 300px;
+    left: 230px;
+  }
+  .block-6 {
+    width: 100% !important;
+  }
+  .block-6 .box {
+    width: 50% !important;
+    height: 100%;
+  }
+  .block-6 .box img {
+    width: 500px !important;
+    height: 100%;
+    margin-right: 20px;
+  }
+  .block-6 .box h1 {
+    font-size: 30px !important;
+  }
+  .block-6 .box p {
+    font-size: 15px !important;
+  }
+  .block-7 {
+    width: 100% !important;
+  }
+  .block-7 .box {
+    width: 150px !important;
+  }
+  .block-7 .box .fruit {
+    width: 150px !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 30px !important;
+  }
+  .block-7 .box .info {
+    opacity: 0;
+  }
+  .block-7 .card {
+    width: 20% !important;
+  }
+  .block-7 .card h2 {
+    font-size: 20px !important;
+  }
+  .block-7 .card p {
+    font-size: 15px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
